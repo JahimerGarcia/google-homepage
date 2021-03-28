@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#main {
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+}
+input[type="submit"], input[type="button"]{
+    margin: 10px;
+    background: #dbdddfa8;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#buscador{
+    display: block;
+    margin: 20px auto;
+    width: 35rem;
+    border-radius: 50px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 18px;
+    outline: none;
+    border: 1.5px solid rgba(153, 143, 124, 0.407);
+}
+#logo-google{
+    margin: 20px;
+}
+
+input:hover{
+    box-shadow:  3px 3px 25px #dbdddfa8;
+    background-color: rgb(240, 233, 223);
+}
+
+.color-link{
+    color: darkgray;
+}
+#pais{
+    position: absolute;
+    bottom: 2rem;
+}
+
+#otras-app{
+    width: 40px;
+    height: 40px;
+}
+
+#nav {
+    position: absolute;
+    right: 1%;
+    top: 1px;
+    justify-content: center;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flexbox;
+    width: 96vw;
+    background-color: rgba(128, 128, 128, 0.192);
+    flex-direction: row;
+}
+#fr{
+    position: relative;
+    left: 75vw;
+    bottom: 10px;
+}
